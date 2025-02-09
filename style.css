@@ -1,0 +1,83 @@
+*{  margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+} 
+
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 20px auto;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    /* border: 1px solid red; */
+    overflow-x: hidden;
+}
+
+.globalContainer{
+    /* border: 1px solid red; */
+    width: 600px;
+    margin:160px auto;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: gold;
+}
+.globalContainer h1{
+/* border: 1px solid red; */
+margin: 10px 0px;
+text-align: center;
+color: black;
+background-color: white;
+padding: 20px 0px;
+border-radius: 10px;
+}
+
+#quetion{
+    /* border: 1px solid red; */
+    padding: 15px;
+    color: black;
+    padding: 20px 0px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+#answerbutton{
+    /* border: 1px solid red; */
+    margin: 10px 0px;
+    display: grid;
+    gap: 20px;
+}
+#answerbutton .btn{
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    outline: none;
+    border: none;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+    transition: ease-in-out 0.5s;
+}
+
+.appcon  #next-btn{
+    /* border: 1px solid red; */
+    margin: 20px auto;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    width: 200px;
+    outline: none;
+    border: none;
+    /* display: none; */
+}
+
+#next-btn:hover{
+    background-color: black;
+    color: white;
+    transition: ease-in-out 0.5s;
+}
+
